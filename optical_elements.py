@@ -82,3 +82,5 @@ class SwapOut(Swap):
         out_modes = list(chain.from_iterable(
             range(i,n*d,n) for i in range(n)))
         super().__init__(in_modes, out_modes, offset)
+
+        
